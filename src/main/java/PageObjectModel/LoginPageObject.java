@@ -12,7 +12,7 @@ public class LoginPageObject {
 	private By password = By.xpath("//input[@id='password']");
 	private By login = By.xpath("//input[@id='Login']");
 	private By tryForfree = By.xpath("//a[@id='signup_link']");
-	private By error = By.xpath("(//div[@class='loginError'])[2]");
+	private By error = By.xpath("//div[@id='error']");
 	private By forgot = By.xpath("//a[@id='forgot_password_link']");
 
 	// creating methods of each of above
