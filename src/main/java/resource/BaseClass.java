@@ -7,6 +7,7 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeMethod;
 
@@ -28,10 +29,10 @@ public class BaseClass {
 
 		if (browsername.equalsIgnoreCase("chrome")) {
 
-			driver = new ChromeDriver();
+			 driver = new ChromeDriver();
 			// driver.get("https://www.flipkart.com/");
 		} else if (browsername.equalsIgnoreCase("firefox")) {
-			driver = new FirefoxDriver();
+			WebDriver driver = new FirefoxDriver();
 			// driver.get("https://www.amazon.in/");
 
 		} else {
