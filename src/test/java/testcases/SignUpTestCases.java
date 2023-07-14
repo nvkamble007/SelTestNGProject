@@ -27,7 +27,8 @@ public class SignUpTestCases extends BaseClass {
 		spo.enterfirstname().sendKeys(constant.firstname);
 		spo.enterlastname().sendKeys(constant.lastname);
 		spo.enterjobtitle().sendKeys(constant.jobtitle);
-		spo.enteremail().sendKeys(constant.email);
+		
+		/*spo.enteremail().sendKeys(constant.email);
 		spo.enterphone().sendKeys(constant.phone);
 
 		CommonMethods.selectmethod(spo.enteremployees(), 1);
@@ -36,7 +37,7 @@ public class SignUpTestCases extends BaseClass {
 		spo.entercompany().sendKeys(constant.company);
 
 		spo.clickagreement().click();
-		spo.clickstarttrial().click();
+		spo.clickstarttrial().click();*/
 
 		/*
 		 * WebElement cou = spo.entercountry(); Select s1 = new Select(cou); this is to
